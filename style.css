@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar {
@@ -13,7 +13,7 @@
 
 .nav_left {
     height: 60px;
-    width: 204.64px;
+    width: 216.64px;
     display: flex;
 }
 
@@ -38,12 +38,13 @@
     margin: 5px 2px 5px 0px;
     padding: 0px 9px 0px 9px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
 .add-logo {
     width: 15px;
-    height: 8px;
+    height: 18px;
     margin-top: 8px;
 }
 
@@ -54,6 +55,7 @@
 }
 
 #country {
+    text-align: center;
     height: 16px;
     font-size: 14px;
     color: #FFFFFF;
@@ -64,4 +66,163 @@
     border: 1.5px solid white;
     margin: 5px 2px 5px 2px;
     padding: 0px 8px 0px 6px;
+}
+
+.search_bar {
+    height: 60px;
+    width: 636.312px;
+    padding: 10px 4px 10px 3px;
+    margin: 0px 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search_drop-down {
+    height: 40px;
+    width: 51.6px;
+    padding-left: 5px;
+    color: #0F1111;
+    background-color: #E6E6E6;
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search_text {
+    width: 552.713px;
+    height: 40px;
+    padding:8.5px 10px 9.5px 0px;
+    color: #0F1111;
+}
+
+.search_icon {
+    height: 40px;
+    width: 45px;
+    background-color: #b10d75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-tools {
+    height: 58px;
+    width: 367.85px;
+    display: flex;
+    align-items: center;
+    margin: 2px 0px 0px;
+    padding: 3px 0px 0px;
+}
+
+.language {
+    height: 50px;
+    width: 73.38px;
+    padding: 0px 9px 5px;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.language:hover {
+    border: 1.5px solid white;
+}
+
+.flag_icon {
+    background-image: url(american_flag.png);
+    background-size: cover;
+    width: 21.6px;
+    height: 16.2px;
+    margin: 0px 2px 1px 0px;
+    border-radius: 2px;
+}
+
+.lang_name {
+    width: 18.38px;
+    height: 15px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.drop-icon {
+    width: 8px;
+    height: 4px;
+    margin: 6px 0px 0px 2px;
+    color: #D6D6D6;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-accounts {
+    height: 50px;
+    width: 131.53px;
+    padding: 0px 9px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-accounts:hover {
+    border: 1.5px solid white;
+}
+
+.sign-in {
+    color: #FFFFFF;
+    width: 70.41px;
+    height: 14px;
+    font-size: 12px;
+}
+
+.accounts {
+    columns: #FFFFFF;
+    width: 113.53px;
+    height: 15px;
+    font-size: 14px;
+    display: flex;
+}
+
+.nav-rno {
+    height: 50px;
+    width: 76.95px;
+    padding: 0px 9px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.returns {
+    width: 58.95px;
+    height: 14px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.orders {
+    width: 58.95px;
+    height: 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nav-rno:hover {
+    border: 1.5px solid white;
+}
+
+.nav-cart {
+    width: 84px;
+    height: 50px;
+    padding: 0px 9px 11px;
+    margin: 0px 1px 0px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.cart-icon {
+    font-size: 20px;
+    width: 38px;
+    height: 26px;
+    text-align: center;
 }
